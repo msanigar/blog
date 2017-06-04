@@ -1,0 +1,40 @@
+.header {
+  background: linear-gradient(to right, #24a3cf, #3650a0);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+
+.title {
+  color: white;
+  font-size: 3.5rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.list-item {
+  color: red;
+}
+
+.link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.link:hover,
+.link:focus {
+  color: #24a3cf;
+}

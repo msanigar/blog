@@ -1,0 +1,13 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "airbnb",
+    "rules": {
+        "indent": [2, "tab"],
+        "linebreak-style": 0, // windows error with LF instead of CRLF line-breaks
+        "no-tabs": 0 // vscode doesn't use normal tabs?
+    }
+}
