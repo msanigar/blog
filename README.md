@@ -8,7 +8,7 @@ Clone: `https://github.com/myles91/blog`
 
 ``` bash
 
-cd pqa
+cd blog
 
 npm i -g webpack yarn
 npm i
